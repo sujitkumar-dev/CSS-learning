@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Selectors Practice</title>
+  <style>
+    /* 1. Element selector */
+    h1 {
+      color: darkblue;
+    }
+
+    /* 2. Class selector */
+    .highlight {
+      background-color: yellow;
+    }
+
+    /* 3. ID selector */
+    #main-title {
+      text-transform: uppercase;
+    }
+
+    /* 4. Group selector */
+    h2, p {
+      font-family: Arial, sans-serif;
+    }
+
+    /* 5. Descendant selector */
+    .box p {
+      color: green;
+    }
+
+    /* 6. Child selector */
+    .box > span {
+      font-weight: bold;
+    }
+
+    /* 7. Adjacent sibling selector */
+    h2 + p {
+      border-top: 2px solid #ccc;
+    }
+
+    /* 8. General sibling selector */
+    h2 ~ ul {
+      color: darkred;
+    }
+
+    /* 9. Attribute selector */
+    a[target="_blank"] {
+      color: red;
+      text-decoration: underline;
+    }
+
+    /* 10. Pseudo-class selector */
+    li:hover {
+      background-color: lightgray;
+    }
+
+    /* 11. Pseudo-element selector */
+    p::first-line {
+      font-weight: bold;
+      color: darkgreen;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="main-title">CSS Selectors Practice</h1>
+
+  <h2 class="highlight">Basic Selectors</h2>
+  <p>This paragraph demonstrates <span class="highlight">class</span> and <span id="special">ID</span> selectors.</p>
+
+  <div class="box">
+    <p>This is a paragraph inside a div with class "box".</p>
+    <span>This span is a direct child.</span>
+  </div>
+
+  <h2>Sibling Selectors</h2>
+  <p>This paragraph comes directly after an h2 (adjacent sibling).</p>
+  <ul>
+    <li>First item</li>
+    <li>Second item</li>
+  </ul>
+
+  <h2>Attribute Selectors</h2>
+  <a href="https://example.com" target="_blank">External Link</a>
+  <a href="/internal-page.html">Internal Link</a>
+
+</body>
+</html>
