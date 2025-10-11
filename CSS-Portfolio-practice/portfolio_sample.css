@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+nav {
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin-left: 150px;
+  margin-top: 14px;
+  border-radius: 50%;
+}
+nav h1 {
+  margin-left: 10px;
+  float: left;
+  margin-top: 13px;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  margin-right: 300px;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  line-height: 60px;
+  margin: 0px 50px;
+  font-size: 20px;
+}
+.get-btn {
+  position: absolute;
+  right: 0;
+  margin-right: 150px;
+  text-decoration: none;
+  color: white;
+  background-color: orangered;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.hero {
+  background-image: url("yousef-samuil-nckOv2mq9vE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70%;
+  margin-top: 60px;
+  position: relative;
+}
+.texts {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.p1 {
+  color: orange;
+  font-size: 30px;
+}
+.texts h1 {
+  font-size: 70px;
+}
+.p2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.more-btn {
+  text-decoration: none;
+  color: white;
+  background-color: orangered;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.offer-btn {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  background-color: transparent;
+  border: 1px solid orangered;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 300px;
+}
+.designing-text {
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+.discussion {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
